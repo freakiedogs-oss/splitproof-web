@@ -1,0 +1,6 @@
+splitproof-nojekyll-canario-v1
+Este archivo existe para el vigia del Venture Factory (sonda asset.splitproof).
+Vive en una carpeta que empieza con "_" a proposito: GitHub Pages (Jekyll) descarta
+esas carpetas si falta .nojekyll, exactamente igual que descartaria _next/. A diferencia
+de los chunks de _next/static, su URL no cambia con cada build, asi que la sonda no hay
+que re-apuntarla en cada publicacion (122a: se cayo por eso, sin ninguna caida real).
